@@ -237,7 +237,7 @@ ul li {
 }
 
 cite.cc {
-    background: url(css/cc-logo.jpg) no-repeat;
+    background: url(cc-logo.jpg) no-repeat;
     background-size: contain;
     padding-left: 1.6em;
 }
