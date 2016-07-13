@@ -11,14 +11,13 @@
   <p>Susan Mosteller</p>
 
    -->
-   <!DOCTYPE html>
-   <html>
-   <title>W3.CSS</title>
+
+
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-black.css">
    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-   <body id="myPage">
+
 
    <!-- Side Navigation on click -->
    <nav class="w3-sidenav w3-white w3-card-2 w3-animate-left" style="display:none;z-index:2" id="mySidenav">
@@ -39,16 +38,24 @@
        <a class="w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
      </li>
      <li><a href="#" class="w3-teal"><i class="fa fa-home w3-margin-right"></i>PSCC</a></li>
-     <li class="w3-hide-small"><a href="#" class="w3-hover-white">Mary Monroe-Ellis</a></li>
-     <li class="w3-hide-small"><a href="#" class="w3-hover-white">Susan Mosteller</a></li>
-     <!--  <li class="w3-hide-small w3-dropdown-hover">
-    <a href="#" class="w3-hover-white" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></a>
+     <!--<li class="w3-hide-small"><a href="#" class="w3-hover-white">Mary Monroe-Ellis</a></li>
+     <li class="w3-hide-small"><a href="#" class="w3-hover-white">Susan Mosteller</a></li>-->
+     <li class="w3-hide-small w3-dropdown-hover">
+    <a href="#" class="w3-hover-white" title="Notifications">Mary Monroe-Ellis<i class="fa fa-caret-down"></i></a>
        <div class="w3-dropdown-content w3-white w3-card-4">
-         <a href="#">Link</a>
-         <a href="#">Link</a>
-         <a href="#">Link</a>
+         <a href="#">Course Policies</a>
+         <a href="#">Contact Information</a>
+         <a href="#">Schedule</a>
        </div>
-     </li>-->
+     </li>
+     <li class="w3-hide-small w3-dropdown-hover">
+    <a href="#" class="w3-hover-white" title="Notifications">Susan Mosteller<i class="fa fa-caret-down"></i></a>
+       <div class="w3-dropdown-content w3-white w3-card-4">
+         <a href="#">Course Policies</a>
+         <a href="#">Contact Information</a>
+         <a href="#">Schedule</a>
+       </div>
+     </li>
      <li class="w3-hide-small w3-right"><a href="#" class="w3-hover-teal" title="Search"><i class="fa fa-search"></i></a></li>
     </ul>
    </div>
@@ -58,14 +65,14 @@
      <ul class="w3-navbar w3-left-align w3-large w3-theme">
        <li><a href="#">Mary Monroe-Ellis</a></li>
        <li><a href="#">Susan Mosteller</a></li>
-       <!--<li><a href="#">Link 3</a></li>
-     </ul>-->
+       <!--<li><a href="#">Link 3</a></li>-->
+     </ul>
    </div>
 
    <div class="w3-display-container w3-animate-opacity">
-     <img class="testimg" src="images/psccentrancelarge.jpg" alt="Image of PSCC Hardin Valley Campus" style="width:100%;min-height:900px;max-height:900px;">
+     <img class="testimg" src="images/psccentrancelarge.jpg" alt="Image of PSCC Hardin Valley Campus" style="width:100%;min-height:350px;max-height:600px;">
      <div class="w3-container w3-display-bottomleft w3-margin-bottom">
-       <button  class="w3-btn w3-xlarge w3-teal" title="Go To W3.CSS">MATH 1830</button>
+       <button  class="w3-btn w3-xlarge w3-theme" title="Go To W3.CSS">MATH 1830</button>
      </div>
    </div>
 
@@ -179,10 +186,10 @@
  </div>-->
 
    <!-- Container -->
-   <div class="w3-container" style="position:relative">
+  <!-- <div class="w3-container" style="position:relative">
      <a onclick="w3_open()" class="w3-btn-floating-large w3-teal" style="position:absolute;top:-28px;right:24px;z-index:0;">
      <i class="fa fa-plus"></i></a>
-   </div>
+   </div>-->
 
    <div class="w3-row-padding w3-center w3-padding-64">
        <h2>Helpful Links</h2>
@@ -193,7 +200,7 @@
              <p class="w3-xlarge"><a href="https://www.desmos.com/calculator"  target="_blank">Desmos Graphing Calculator</a></p>
            </li>
 
-           </li>
+
          </ul>
        </div>
 
@@ -219,7 +226,7 @@
 
 
 
-
+<footer>
      <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
        <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
        <a class="w3-btn w3-theme" href="#myPage"><span class="w3-xlarge">
@@ -254,8 +261,3 @@
 
    </body>
    </html>
-
-
-
-  </body>
-</html>
